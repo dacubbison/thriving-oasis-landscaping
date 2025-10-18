@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div>
-      <section className="relative py-60 px-4 text-center">
+      <section className="relative h-[500px] md:h-[800px] px-4 text-center flex items-center justify-center">
         <Image
           src="/hero-christmas-lights.jpg"
           alt="Professional Christmas Light Installation in The Woodlands TX - Festive home display"
@@ -22,11 +22,11 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            className="text-4xl font-bold mb-4 text-green-500 drop-shadow-lg"
+            className="text-4xl md:text-6xl font-bold mb-4 text-green-400 drop-shadow-lg"
           >
             Thriving Oasis Landscaping: Professional Christmas Light Installation
           </motion.h1>
-          <p className="text-xl mb-8 text-red-500 drop-shadow-lg">Brighten your holiday season with expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX. Safe, beautiful designs tailored to your home or business!</p>
+          <p className="text-xl md:text-3xl mb-8 text-red-400 drop-shadow-lg">Brighten your holiday season with expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX. Safe, beautiful designs tailored to your home or business!</p>
           <Link href="/contact" className="bg-green-700 px-8 py-3 rounded-lg hover:bg-green-800 text-white">Book Free Holiday Quote</Link>
         </div>
       </section>
