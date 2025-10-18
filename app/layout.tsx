@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <nav className="bg-green-700 text-white p-4">
-          <ul className="flex flex-wrap space-x-10 justify-center">
+          <ul className="flex flex-wrap space-x-16 justify-center text-lg">
             <li><Link href="/" className="hover:underline font-semibold px-2">Home</Link></li>
             <li><Link href="/services" className="hover:underline font-semibold px-2">Services</Link></li>
             <li><Link href="/contact" className="hover:underline font-semibold px-2">Contact</Link></li>
