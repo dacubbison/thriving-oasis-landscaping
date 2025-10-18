@@ -14,13 +14,13 @@ export default function ServicesPage() {
         <tbody>
           <tr id="lights" className="hover:bg-green-50 transition-colors">
             <td className="border p-2 font-semibold">Professional Christmas Light Installation</td>
-            <td className="border p-2">Custom holiday lighting for The Woodlands TX, Kingwood TX, and Montgomery County TX—includes design, safe installation, removal, and storage. Warranty included.</td>
-            <td className="border p-2">$200/job</td>
+            <td className="border p-2">Custom holiday lighting with professional commercial-grade LED lights for The Woodlands TX, Kingwood TX, and Montgomery County TX—includes design, safe installation, removal, and storage. Warranty included.</td>
+            <td className="border p-2">$1,000/job</td>
           </tr>
           <tr className="hover:bg-green-50 transition-colors">
             <td className="border p-2 font-semibold">Premium Christmas Light Installation</td>
-            <td className="border p-2">Enhanced designs with LED lights, maintenance, and commercial options for Montgomery County TX businesses.</td>
-            <td className="border p-2">$500/job</td>
+            <td className="border p-2">Enhanced designs with premium commercial-grade LED lights, maintenance, and commercial options for Montgomery County TX businesses—starting at $1,500+.</td>
+            <td className="border p-2">$1,500+/job</td>
           </tr>
           <tr className="hover:bg-green-50 transition-colors">
             <td className="border p-2 font-semibold">Pressure Washing</td>
