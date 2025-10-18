@@ -7,14 +7,14 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div>
-      <section className="relative bg-green-500 text-white py-40 px-4 text-center">
+      <section className="relative bg-green-500 text-white py-20 px-4 text-center">
         <Image
           src="/hero-christmas-lights.jpg"
           alt="Professional Christmas Light Installation in The Woodlands TX - Festive home display"
           layout="fill"
           objectFit="cover"
           quality={100}
-          className="absolute inset-0 z-0 opacity-70"
+          className="absolute inset-0 z-0 opacity-50"
         />
         <div className="relative z-10">
           <motion.h1
@@ -29,7 +29,7 @@ export default function Home() {
           <Link href="/contact" className="bg-green-700 px-8 py-3 rounded-lg hover:bg-green-800">Book Free Holiday Quote</Link>
         </div>
       </section>
-      <section className="py-16 px-4 max-w-6xl mx-auto bg-gradient-to-b from-green-100 to-white">
+      <section className="py-16 px-4 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">Professional Christmas Light Installation Services</h2>
         <p className="text-center mb-8">Brighten up your holiday season with expert Christmas light installation! Our professional team handles everything from design to takedown, ensuring your home or business shines with festive cheer—safely and beautifully.</p>
         <div className="grid md:grid-cols-2 gap-6">
