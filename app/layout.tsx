@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Thriving Oasis Landscaping - Professional Christmas Light Installation in The Woodlands, Kingwood & Montgomery County TX",
-  description: "Expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX. Winter landscaping services including pressure washing and pruning for year-round thrive.",
-  keywords: "professional Christmas light installation The Woodlands TX, professional Christmas light installation Kingwood TX, professional Christmas light installation Montgomery County TX, Christmas light installation The Woodlands TX, Christmas light installation Kingwood TX, Christmas light installation Montgomery County TX, winter landscaping The Woodlands TX",
+  description: "Expert professional Christmas light installation services in The Woodlands TX, Kingwood TX, and Montgomery County TX. Winter landscaping including pressure washing and pruning for a festive, thriving property.",
+  keywords: "professional Christmas light installation The Woodlands TX, professional Christmas light installation Kingwood TX, professional Christmas light installation Montgomery County TX, Christmas light installation The Woodlands TX, Christmas light installation Kingwood TX, Christmas light installation Montgomery County TX, winter landscaping The Woodlands TX, pressure washing Montgomery County TX",
 };
 
 export default function RootLayout({
