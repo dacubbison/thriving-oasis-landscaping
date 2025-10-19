@@ -42,7 +42,7 @@ body {
   100% { opacity: 1; transform: scale(1.2); }
 }
 
-/* Falling leaves animation */
+/* Falling leaves animation with wind sway */
 .falling-leaf {
   position: absolute;
   top: -10px;
@@ -54,7 +54,9 @@ body {
 }
 
 @keyframes leaf-fall {
-  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
-  50% { transform: translateY(50vh) rotate(180deg); }
-  100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+  0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
+  25% { transform: translateX(20px) translateY(25vh) rotate(90deg); }
+  50% { transform: translateX(-20px) translateY(50vh) rotate(180deg); }
+  75% { transform: translateX(30px) translateY(75vh) rotate(270deg); opacity: 0.5; }
+  100% { transform: translateX(-10px) translateY(100vh) rotate(360deg); opacity: 0; }
 }
