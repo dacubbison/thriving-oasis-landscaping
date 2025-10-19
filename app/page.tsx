@@ -6,7 +6,14 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
+      {/* Snowflakes for winter vibe */}
+      <div className="snowflake left-10" style={{ animationDelay: '0s' }}>❄️</div>
+      <div className="snowflake left-1/4" style={{ animationDelay: '2s' }}>❄️</div>
+      <div className="snowflake left-1/2" style={{ animationDelay: '4s' }}>❄️</div>
+      <div className="snowflake left-3/4" style={{ animationDelay: '1s' }}>❄️</div>
+      <div className="snowflake right-10" style={{ animationDelay: '3s' }}>❄️</div>
+
       <section className="relative h-[500px] md:h-[800px] px-4 text-center flex items-center justify-center">
         <Image
           src="/hero-christmas-lights.png"
@@ -23,26 +30,26 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
             className="text-5xl md:text-7xl font-bold mb-4 text-green-300 drop-shadow-lg"
-            style={{ color: 'rgb(134, 239, 172)' }}  // Inline force light green—matches green-300
+            style={{ color: 'rgb(134, 239, 172)' }}
           >
             Thriving Oasis Landscaping: Professional Christmas Light Installation
           </motion.h1>
           <p 
             className="text-4xl md:text-6xl mb-4 font-bold text-white drop-shadow-lg"
-            style={{ color: 'rgb(255, 255, 255)' }}  // Inline force white
+            style={{ color: 'rgb(255, 255, 255)' }}
           >
             Brighten your holiday season with expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX.
           </p>
           <p 
             className="text-2xl md:text-4xl mb-8 font-bold text-white drop-shadow-lg"
-            style={{ color: 'rgb(255, 255, 255)' }}  // Inline force white
+            style={{ color: 'rgb(255, 255, 255)' }}
           >
             Safe, beautiful designs tailored to your home or business!
           </p>
           <Link 
             href="/contact" 
             className="text-2xl md:text-3xl font-extrabold hover:underline mb-4 inline-block drop-shadow-lg"
-            style={{ color: 'rgb(220, 38, 38)' }}  // Inline force bright red-600
+            style={{ color: 'rgb(220, 38, 38)' }}
           >
             Book Free Holiday Quote
           </Link>
@@ -50,15 +57,25 @@ export default function Home() {
           <Link 
             href="tel:9365492997" 
             className="text-2xl md:text-3xl font-extrabold hover:underline inline-block drop-shadow-lg"
-            style={{ color: 'rgb(220, 38, 38)' }}  // Inline force bright red-600
+            style={{ color: 'rgb(220, 38, 38)' }}
           >
             Call or Text: 936-549-2997
           </Link>
         </div>
       </section>
-      <section className="py-16 px-4 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8 text-green-800">Professional Christmas Light Installation Services</h2>
-        <p className="text-center mb-8 text-red-600">Brighten up your holiday season with expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX! Our professional team handles everything from design to takedown, ensuring your home or business shines with festive cheer—safely and beautifully.</p>
+      <section className="py-16 px-4 max-w-6xl mx-auto relative z-10">
+        <h2 
+          className="text-3xl font-bold text-center mb-8"
+          style={{ color: 'rgb(22, 101, 52)' }}  // Green-800
+        >
+          🎄 Professional Christmas Light Installation Services
+        </h2>
+        <p 
+          className="text-center mb-8"
+          style={{ color: 'rgb(220, 38, 38)' }}  // Red-600
+        >
+          Brighten up your holiday season with expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX! Our professional team handles everything from design to takedown, ensuring your home or business shines with festive cheer—safely and beautifully.
+        </p>
         <div className="grid md:grid-cols-2 gap-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -66,8 +83,13 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="p-6 bg-white rounded shadow hover:shadow-lg transition-shadow"
           >
-            <h3 className="text-2xl mb-2 text-green-800">Our Services Include</h3>
-            <ul className="list-disc pl-6 space-y-2 text-red-600">
+            <h3 
+              className="text-2xl mb-2"
+              style={{ color: 'rgb(22, 101, 52)' }}  // Green-800
+            >
+              ❄️ Our Services Include
+            </h3>
+            <ul className="list-disc pl-6 space-y-2" style={{ color: 'rgb(220, 38, 38)' }}>  // Red-600
               <li>Custom lighting design tailored to your property</li>
               <li>High-quality, energy-efficient LED lights</li>
               <li>Safe and secure installation by trained professionals</li>
@@ -81,8 +103,13 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="p-6 bg-white rounded shadow hover:shadow-lg transition-shadow"
           >
-            <h3 className="text-2xl mb-2 text-green-800">Why Choose Us?</h3>
-            <ul className="list-disc pl-6 space-y-2 text-red-600">
+            <h3 
+              className="text-2xl mb-2"
+              style={{ color: 'rgb(22, 101, 52)' }}  // Green-800
+            >
+              🎅 Why Choose Us?
+            </h3>
+            <ul className="list-disc pl-6 space-y-2" style={{ color: 'rgb(220, 38, 38)' }}>  // Red-600
               <li>Fully insured and experienced installers</li>
               <li>Hassle-free, no-ladder experience for you</li>
               <li>Creative designs to fit any style or budget</li>
@@ -91,14 +118,24 @@ export default function Home() {
           </motion.div>
         </div>
         <div className="mt-8 text-center">
-          <h3 className="text-2xl font-bold mb-4 text-green-800">How It Works</h3>
-          <ol className="list-decimal pl-6 space-y-2 text-left max-w-2xl mx-auto text-red-600">
+          <h3 
+            className="text-2xl font-bold mb-4"
+            style={{ color: 'rgb(22, 101, 52)' }}  // Green-800
+          >
+            ⛄ How It Works
+          </h3>
+          <ol className="list-decimal pl-6 space-y-2 text-left max-w-2xl mx-auto" style={{ color: 'rgb(220, 38, 38)' }}>  // Red-600
             <li>Schedule a free consultation and design estimate</li>
             <li>Approve your custom lighting plan</li>
             <li>Sit back while we install and illuminate your property</li>
             <li>Enjoy a dazzling, worry-free holiday display</li>
           </ol>
-          <p className="mt-4 text-red-600">Contact us today to book your professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX and make this Christmas your brightest yet!</p>
+          <p 
+            className="mt-4"
+            style={{ color: 'rgb(220, 38, 38)' }}  // Red-600
+          >
+            Contact us today to book your professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX and make this Christmas your brightest yet!
+          </p>
         </div>
       </section>
     </div>
