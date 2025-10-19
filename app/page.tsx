@@ -39,7 +39,21 @@ export default function Home() {
           >
             Safe, beautiful designs tailored to your home or business!
           </p>
-          <Link href="/contact" className="bg-green-700 px-8 py-3 rounded-lg hover:bg-green-800 text-white">Book Free Holiday Quote</Link>
+          <Link 
+            href="/contact" 
+            className="text-2xl md:text-3xl font-extrabold hover:underline mb-4 inline-block drop-shadow-lg"
+            style={{ color: 'rgb(220, 38, 38)' }}  // Inline force bright red-600
+          >
+            Book Free Holiday Quote
+          </Link>
+          <br />
+          <Link 
+            href="tel:9365492997" 
+            className="text-2xl md:text-3xl font-extrabold hover:underline inline-block drop-shadow-lg"
+            style={{ color: 'rgb(220, 38, 38)' }}  // Inline force bright red-600
+          >
+            Call or Text: 936-549-2997
+          </Link>
         </div>
       </section>
       <section className="py-16 px-4 max-w-6xl mx-auto">
