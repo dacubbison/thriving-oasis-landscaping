@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <section className="relative h-[500px] md:h-[800px] px-4 text-center flex items-center justify-center">
         <Image
-          src="/hero-christmas-lights.jpg"
+          src="/hero-christmas-lights.png"
           alt="Professional Christmas Light Installation in The Woodlands TX - Festive home display"
           layout="fill"
           objectFit="cover"
@@ -28,14 +28,14 @@ export default function Home() {
             Thriving Oasis Landscaping: Professional Christmas Light Installation
           </motion.h1>
           <p 
-            className="text-4xl md:text-6xl mb-4 font-bold text-red-500 drop-shadow-lg"
-            style={{ color: 'rgb(239, 68, 68)' }}  // Inline force darker red—matches red-500
+            className="text-4xl md:text-6xl mb-4 font-bold text-white drop-shadow-lg"
+            style={{ color: 'rgb(255, 255, 255)' }}  // Inline force white
           >
             Brighten your holiday season with expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX.
           </p>
           <p 
-            className="text-2xl md:text-4xl mb-8 font-bold text-red-400 drop-shadow-lg"
-            style={{ color: 'rgb(248, 113, 113)' }}  // Inline force lighter red—matches red-400
+            className="text-2xl md:text-4xl mb-8 font-bold text-white drop-shadow-lg"
+            style={{ color: 'rgb(255, 255, 255)' }}  // Inline force white
           >
             Safe, beautiful designs tailored to your home or business!
           </p>
