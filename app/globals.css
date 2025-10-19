@@ -6,7 +6,7 @@ body {
   background-color: #f3f4f6;
   background-image: linear-gradient(to bottom, #e0f2fe, #f3f4f6); /* Light winter blue-green gradient */
   position: relative;
-  overflow: hidden; /* Prevent overflow from animations */
+  overflow-y: scroll; /* Always show scrollbar to prevent flicker from animations */
 }
 
 /* Snowflake animation */
