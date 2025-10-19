@@ -50,7 +50,7 @@ export default function ServicesPage() {
               className="mb-4"
               style={{ color: 'rgb(220, 38, 38)' }}
             >
-              Custom holiday lighting for The Woodlands TX, Kingwood TX, and Montgomery County TX—includes design, safe installation, removal, and storage with commercial LEDs. Warranty included.
+              Custom LED designs in The Woodlands TX—safe install, removal, storage. Warranty included.
             </p>
             <p 
               className="font-bold text-lg"
@@ -60,7 +60,6 @@ export default function ServicesPage() {
             </p>
           </motion.div>
 
-          {/* Repeat for other cards with similar inline forces and festive icons like 🎄, ❄️, ⛄ */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -77,7 +76,7 @@ export default function ServicesPage() {
               className="mb-4"
               style={{ color: 'rgb(220, 38, 38)' }}
             >
-              Enhanced designs with LED lights, maintenance, and commercial options for Montgomery County TX businesses.
+              Enhanced LED setups in Kingwood TX—maintenance, commercial options.
             </p>
             <p 
               className="font-bold text-lg"
@@ -103,7 +102,7 @@ export default function ServicesPage() {
               className="mb-4"
               style={{ color: 'rgb(220, 38, 38)' }}
             >
-              Holiday prep with gutter and driveway cleaning in The Woodlands TX and Kingwood TX—bundle with professional Christmas light installation for 10% off.
+              Gutter/driveway clean in Montgomery County TX—bundle with lights for 10% off.
             </p>
             <p 
               className="font-bold text-lg"
@@ -113,7 +112,6 @@ export default function ServicesPage() {
             </p>
           </motion.div>
 
-          {/* Continue for Deck Washing, Driveway, Leaf Clean Up, Pruning with icons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -130,7 +128,7 @@ export default function ServicesPage() {
               className="mb-4"
               style={{ color: 'rgb(220, 38, 38)' }}
             >
-              Professional deck cleaning in The Woodlands TX, Kingwood TX, and Montgomery County TX—remove dirt, mold, and stains for a fresh winter outdoor space. Bundle with pressure washing for 10% off.
+              Remove dirt/mold in The Woodlands TX—bundle with pressure washing for 10% off.
             </p>
             <p 
               className="font-bold text-lg"
@@ -140,7 +138,83 @@ export default function ServicesPage() {
             </p>
           </motion.div>
 
-          {/* ... (omit repeats for brevity, but add all in code) */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow border border-green-200"
+          >
+            <h3 
+              className="text-2xl font-semibold mb-3"
+              style={{ color: 'rgb(22, 101, 52)' }}
+            >
+              ❄️ Driveway Pressure Washing
+            </h3>
+            <p 
+              className="mb-4"
+              style={{ color: 'rgb(220, 38, 38)' }}
+            >
+              Clear oil/dirt in Kingwood TX—holiday prep add-on.
+            </p>
+            <p 
+              className="font-bold text-lg"
+              style={{ color: 'rgb(220, 38, 38)' }}
+            >
+              Starting at $150/job
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            className="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow border border-green-200"
+          >
+            <h3 
+              className="text-2xl font-semibold mb-3"
+              style={{ color: 'rgb(22, 101, 52)' }}
+            >
+              🍂 Winter Leaf Clean Up
+            </h3>
+            <p 
+              className="mb-4"
+              style={{ color: 'rgb(220, 38, 38)' }}
+            >
+              Yard tidy in Montgomery County TX—bundle with lights for savings.
+            </p>
+            <p 
+              className="font-bold text-lg"
+              style={{ color: 'rgb(220, 38, 38)' }}
+            >
+              Starting at $150/job
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+            className="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow border border-green-200"
+          >
+            <h3 
+              className="text-2xl font-semibold mb-3"
+              style={{ color: 'rgb(22, 101, 52)' }}
+            >
+              ❄️ Winter Pruning & Cleanups
+            </h3>
+            <p 
+              className="mb-4"
+              style={{ color: 'rgb(220, 38, 38)' }}
+            >
+              Plant care in The Woodlands TX—festive yard add-on.
+            </p>
+            <p 
+              className="font-bold text-lg"
+              style={{ color: 'rgb(220, 38, 38)' }}
+            >
+              Starting at $300/mo
+            </p>
+          </motion.div>
         </div>
 
         <p 

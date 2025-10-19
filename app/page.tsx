@@ -17,7 +17,7 @@ export default function Home() {
       <section className="relative h-[500px] md:h-[800px] px-4 text-center flex items-center justify-center">
         <Image
           src="/hero-christmas-lights.png"
-          alt="Professional Christmas Light Installation in The Woodlands TX - Festive home display"
+          alt="Professional Christmas light installation in The Woodlands TX - Festive home display"
           layout="fill"
           objectFit="cover"
           quality={100}
@@ -68,7 +68,7 @@ export default function Home() {
           className="text-3xl font-bold text-center mb-8"
           style={{ color: 'rgb(22, 101, 52)' }}  // Green-800
         >
-          🎄 Professional Christmas Light Installation Services
+          🎄 Professional Christmas Light Installation Services in The Woodlands TX
         </h2>
         <p 
           className="text-center mb-8"
@@ -90,11 +90,11 @@ export default function Home() {
               ❄️ Our Services Include
             </h3>
             <ul className="list-disc pl-6 space-y-2" style={{ color: 'rgb(220, 38, 38)' }}>
-              <li>Custom lighting design tailored to your property</li>
-              <li>High-quality, energy-efficient LED lights</li>
-              <li>Safe and secure installation by trained professionals</li>
-              <li>Timely removal and storage options after the holidays</li>
-              <li>Maintenance and troubleshooting throughout the season</li>
+              <li>Custom designs for your property</li>
+              <li>Energy-efficient LED lights</li>
+              <li>Safe pro installation in The Woodlands TX</li>
+              <li>Removal & storage post-holidays</li>
+              <li>Season-long maintenance</li>
             </ul>
           </motion.div>
           <motion.div
@@ -110,28 +110,28 @@ export default function Home() {
               🎅 Why Choose Us?
             </h3>
             <ul className="list-disc pl-6 space-y-2" style={{ color: 'rgb(220, 38, 38)' }}>
-              <li>Fully insured and experienced installers</li>
+              <li>Insured expert installers</li>
               <li>Hassle-free, no-ladder experience for you</li>
-              <li>Creative designs to fit any style or budget</li>
-              <li>Reliable scheduling and prompt service</li>
+              <li>Designs for every budget in Kingwood TX</li>
+              <li>Reliable & prompt scheduling</li>
             </ul>
           </motion.div>
         </div>
-        <div className="mt-8 text-center">
+        <div className="mt-8">
           <h3 
-            className="text-2xl font-bold mb-4"
+            className="text-2xl font-bold mb-4 text-left max-w-2xl mx-auto"
             style={{ color: 'rgb(22, 101, 52)' }}  // Green-800
           >
             ⛄ How It Works
           </h3>
           <ol className="list-decimal pl-6 space-y-2 text-left max-w-2xl mx-auto" style={{ color: 'rgb(220, 38, 38)' }}>
-            <li>Schedule a free consultation and design estimate</li>
-            <li>Approve your custom lighting plan</li>
-            <li>Sit back while we install and illuminate your property</li>
-            <li>Enjoy a dazzling, worry-free holiday display</li>
+            <li>Book free consultation</li>
+            <li>Approve your plan & digital rendering</li>
+            <li>Relax during install in Montgomery County TX</li>
+            <li>Enjoy your holiday glow</li>
           </ol>
           <p 
-            className="mt-4"
+            className="mt-4 text-center"
             style={{ color: 'rgb(220, 38, 38)' }}  // Red-600
           >
             Contact us today to book your professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX and make this Christmas your brightest yet!

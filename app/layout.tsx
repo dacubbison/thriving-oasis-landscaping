@@ -19,7 +19,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* Twinkling lights for site-wide Christmassy vibe */}
+        {/* Snowflakes */}
+        <div className="snowflake left-10" style={{ animationDelay: '0s' }}>❄️</div>
+        <div className="snowflake left-1/4" style={{ animationDelay: '2s' }}>❄️</div>
+        <div className="snowflake left-1/2" style={{ animationDelay: '4s' }}>❄️</div>
+        <div className="snowflake left-3/4" style={{ animationDelay: '1s' }}>❄️</div>
+        <div className="snowflake right-10" style={{ animationDelay: '3s' }}>❄️</div>
+
+        {/* Falling leaves */}
+        <div className="falling-leaf left-5" style={{ animationDelay: '0s' }}>🍁</div>
+        <div className="falling-leaf left-20" style={{ animationDelay: '3s' }}>🍂</div>
+        <div className="falling-leaf left-40" style={{ animationDelay: '1s' }}>🍁</div>
+        <div className="falling-leaf left-60" style={{ animationDelay: '4s' }}>🍂</div>
+        <div className="falling-leaf left-80" style={{ animationDelay: '2s' }}>🍁</div>
+
+        {/* Twinkling lights */}
         <div className="twinkle-light" style={{ left: '10%', top: '20%', animationDelay: '0s' }}></div>
         <div className="twinkle-light" style={{ left: '30%', top: '40%', animationDelay: '0.5s' }}></div>
         <div className="twinkle-light" style={{ left: '50%', top: '60%', animationDelay: '1s' }}></div>

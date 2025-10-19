@@ -9,7 +9,7 @@ body {
   overflow: hidden; /* Prevent overflow from animations */
 }
 
-/* Snowflake animation (from before) */
+/* Snowflake animation */
 .snowflake {
   position: absolute;
   top: -10px;
@@ -25,7 +25,7 @@ body {
   100% { transform: translateY(100vh); opacity: 0; }
 }
 
-/* Twinkling lights animation */
+/* Twinkle light animation (from before) */
 .twinkle-light {
   position: absolute;
   z-index: -1;
@@ -40,4 +40,22 @@ body {
 @keyframes twinkle {
   0% { opacity: 0.5; transform: scale(0.8); }
   100% { opacity: 1; transform: scale(1.2); }
+}
+
+/* Falling leaves animation */
+.falling-leaf {
+  position: absolute;
+  top: -10px;
+  z-index: -1;
+  animation: leaf-fall 12s linear infinite;
+  color: rgb(194, 65, 12); /* Orange-red leaves */
+  font-size: 1.5rem;
+  opacity: 0.7;
+  transform: rotate(0deg); /* Start upright */
+}
+
+@keyframes leaf-fall {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  50% { transform: translateY(50vh) rotate(180deg); }
+  100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
 }
