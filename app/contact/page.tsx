@@ -53,11 +53,6 @@ export default function ContactPage() {
           Send It!
         </button>
       </form>
-      <div className="mt-8 text-center">
-        <h2 className="text-2xl font-bold mb-4 text-green-800">Book a Free Holiday Audit</h2>
-        <div className="calendly-inline-widget" data-url="https://calendly.com/YOUR_CALENDLY_LINK" style={{ minWidth: '320px', height: '630px' }}></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-      </div>
     </motion.div>
   );
 }

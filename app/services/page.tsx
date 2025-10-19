@@ -28,6 +28,21 @@ export default function ServicesPage() {
             <td className="border p-2 text-red-600">$200/job</td>
           </tr>
           <tr className="hover:bg-green-50 transition-colors">
+            <td className="border p-2 font-semibold text-green-800">Deck Washing</td>
+            <td className="border p-2 text-red-600">Professional deck cleaning in The Woodlands TX, Kingwood TX, and Montgomery County TX—remove dirt, mold, and stains for a fresh winter outdoor space. Bundle with pressure washing for 10% off.</td>
+            <td className="border p-2 text-red-600">$150/job</td>
+          </tr>
+          <tr className="hover:bg-green-50 transition-colors">
+            <td className="border p-2 font-semibold text-green-800">Driveway Pressure Washing</td>
+            <td className="border p-2 text-red-600">Efficient driveway cleaning to remove oil, dirt, and stains in The Woodlands TX, Kingwood TX, and Montgomery County TX—perfect holiday prep add-on.</td>
+            <td className="border p-2 text-red-600">$150/job</td>
+          </tr>
+          <tr className="hover:bg-green-50 transition-colors">
+            <td className="border p-2 font-semibold text-green-800">Winter Leaf Clean Up</td>
+            <td className="border p-2 text-red-600">Thorough leaf removal and yard cleanup in The Woodlands TX, Kingwood TX, and Montgomery County TX—keep your property tidy and ready for winter festivities. Bundle with lights for savings.</td>
+            <td className="border p-2 text-red-600">$150/job</td>
+          </tr>
+          <tr className="hover:bg-green-50 transition-colors">
             <td className="border p-2 font-semibold text-green-800">Winter Pruning & Cleanups</td>
             <td className="border p-2 text-red-600">Native plant care in Montgomery County TX—perfect add-on to keep your yard festive and ready with Christmas light installation The Woodlands TX.</td>
             <td className="border p-2 text-red-600">$300/mo</td>
