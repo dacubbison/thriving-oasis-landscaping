@@ -11,6 +11,17 @@ export const metadata: Metadata = {
   keywords: "professional Christmas light installation The Woodlands TX, professional Christmas light installation Kingwood TX, professional Christmas light installation Montgomery County TX, Christmas light installation The Woodlands TX, Christmas light installation Kingwood TX, Christmas light installation Montgomery County TX, winter landscaping The Woodlands TX, pressure washing Montgomery County TX",
 };
 
+const leaves = [
+  { left: '5%', animationDelay: '0s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
+  { left: '20%', animationDelay: '3s', color: 'rgb(210, 105, 30)', emoji: '🍂' }, // Chocolate brown
+  { left: '40%', animationDelay: '1s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
+  { left: '60%', animationDelay: '4s', color: 'rgb(210, 105, 30)', emoji: '🍂' }, // Chocolate brown
+  { left: '80%', animationDelay: '2s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
+  { left: '15%', animationDelay: '5s', color: 'rgb(210, 105, 30)', emoji: '🍂' }, // Extra for random spread
+  { left: '50%', animationDelay: '0.5s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Extra
+  { left: '75%', animationDelay: '2.5s', color: 'rgb(210, 105, 30)', emoji: '🍂' } // Extra
+];
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,12 +37,10 @@ export default function RootLayout({
         <div className="snowflake left-3/4" style={{ animationDelay: '1s' }}>❄️</div>
         <div className="snowflake right-10" style={{ animationDelay: '3s' }}>❄️</div>
 
-        {/* Falling leaves */}
-        <div className="falling-leaf left-5" style={{ animationDelay: '0s' }}>🍁</div>
-        <div className="falling-leaf left-20" style={{ animationDelay: '3s' }}>🍂</div>
-        <div className="falling-leaf left-40" style={{ animationDelay: '1s' }}>🍁</div>
-        <div className="falling-leaf left-60" style={{ animationDelay: '4s' }}>🍂</div>
-        <div className="falling-leaf left-80" style={{ animationDelay: '2s' }}>🍁</div>
+        {/* Falling leaves with random positions and colors */}
+        {leaves.map((leaf, i) => (
+          <div key={i} className="falling-leaf" style={{ left: leaf.left, animationDelay: leaf.animationDelay, color: leaf.color }}>{leaf.emoji}</div>
+        ))}
 
         {/* Twinkling lights */}
         <div className="twinkle-light" style={{ left: '10%', top: '20%', animationDelay: '0s' }}></div>
