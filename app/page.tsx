@@ -89,7 +89,7 @@ export default function Home() {
             >
               ❄️ Our Services Include
             </h3>
-            <ul className="list-disc pl-6 space-y-2" style={{ color: 'rgb(220, 38, 38)' }}>  // Red-600
+            <ul className="list-disc pl-6 space-y-2" style={{ color: 'rgb(220, 38, 38)' }}>
               <li>Custom lighting design tailored to your property</li>
               <li>High-quality, energy-efficient LED lights</li>
               <li>Safe and secure installation by trained professionals</li>
@@ -109,7 +109,7 @@ export default function Home() {
             >
               🎅 Why Choose Us?
             </h3>
-            <ul className="list-disc pl-6 space-y-2" style={{ color: 'rgb(220, 38, 38)' }}>  // Red-600
+            <ul className="list-disc pl-6 space-y-2" style={{ color: 'rgb(220, 38, 38)' }}>
               <li>Fully insured and experienced installers</li>
               <li>Hassle-free, no-ladder experience for you</li>
               <li>Creative designs to fit any style or budget</li>
@@ -124,7 +124,7 @@ export default function Home() {
           >
             ⛄ How It Works
           </h3>
-          <ol className="list-decimal pl-6 space-y-2 text-left max-w-2xl mx-auto" style={{ color: 'rgb(220, 38, 38)' }}>  // Red-600
+          <ol className="list-decimal pl-6 space-y-2 text-left max-w-2xl mx-auto" style={{ color: 'rgb(220, 38, 38)' }}>
             <li>Schedule a free consultation and design estimate</li>
             <li>Approve your custom lighting plan</li>
             <li>Sit back while we install and illuminate your property</li>
