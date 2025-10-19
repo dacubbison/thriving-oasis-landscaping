@@ -19,6 +19,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        {/* Twinkling lights for site-wide Christmassy vibe */}
+        <div className="twinkle-light" style={{ left: '10%', top: '20%', animationDelay: '0s' }}></div>
+        <div className="twinkle-light" style={{ left: '30%', top: '40%', animationDelay: '0.5s' }}></div>
+        <div className="twinkle-light" style={{ left: '50%', top: '60%', animationDelay: '1s' }}></div>
+        <div className="twinkle-light" style={{ left: '70%', top: '30%', animationDelay: '1.5s' }}></div>
+        <div className="twinkle-light" style={{ left: '90%', top: '50%', animationDelay: '2s' }}></div>
+        <div className="twinkle-light" style={{ left: '20%', top: '70%', animationDelay: '0.2s' }}></div>
+        <div className="twinkle-light" style={{ left: '40%', top: '10%', animationDelay: '0.8s' }}></div>
+        <div className="twinkle-light" style={{ left: '60%', top: '80%', animationDelay: '1.2s' }}></div>
+        <div className="twinkle-light" style={{ left: '80%', top: '90%', animationDelay: '1.8s' }}></div>
+
         <nav className="bg-green-700 text-white p-4">
           <ul className="flex flex-wrap justify-center text-lg">
             <li style={{ marginRight: '2rem' }}><Link href="/" className="hover:underline font-semibold px-2" style={{ fontSize: '1.25rem' }}>Home</Link></li>
