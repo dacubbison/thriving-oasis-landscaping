@@ -17,7 +17,7 @@ export default function Home() {
       <section className="relative h-[500px] md:h-[800px] px-4 text-center flex items-center justify-center">
         <Image
           src="/hero-christmas-lights.png"
-          alt="Professional Christmas light installation in The Woodlands TX - Festive home display"
+          alt="Professional Christmas Light Installation in The Woodlands TX - Festive home display"
           layout="fill"
           objectFit="cover"
           quality={100}
@@ -55,11 +55,11 @@ export default function Home() {
           </Link>
           <br />
           <Link 
-            href="tel:9365492997" 
+            href="tel:9365492797" 
             className="text-2xl md:text-3xl font-extrabold hover:underline inline-block drop-shadow-lg"
             style={{ color: 'rgb(220, 38, 38)' }}
           >
-            Call or Text: 936-549-2997
+            Call or Text: 936-549-2797
           </Link>
         </div>
       </section>
