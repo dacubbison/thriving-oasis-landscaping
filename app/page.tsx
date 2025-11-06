@@ -73,7 +73,7 @@ export default function Home() {
           className="text-center mb-8"
           style={{ color: 'rgb(220, 38, 38)' }}  // Red-600
         >
-          Brighten up your holiday season with expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX! Our professional team handles everything from design to takedown, ensuring your home or business shines with festive cheer—safely and beautifully. Searching for "Christmas lights near me" or "holiday light installation Kingwood TX"? We've got you covered with custom solutions.
+          Brighten up your holiday season with expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX! Our professional team handles everything from design to takedown, ensuring your home or business shines with festive cheer—safely and beautifully. Searching for &quot;Christmas lights near me&quot; or &quot;holiday light installation Kingwood TX&quot;? We&apos;ve got you covered with custom solutions.
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <motion.div

@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ServicesPage() {
   return (
@@ -29,7 +30,7 @@ export default function ServicesPage() {
           className="mb-8 text-lg text-center max-w-3xl mx-auto"
           style={{ color: 'rgb(220, 38, 38)' }}
         >
-          Our winter services in The Woodlands TX, Kingwood TX, and Montgomery County TX spotlight professional Christmas light installation, complemented by pressure washing and pruning for a thriving holiday property. Looking for "Christmas light installation near me"? We're your local experts.
+          Our winter services in The Woodlands TX, Kingwood TX, and Montgomery County TX spotlight professional Christmas light installation, complemented by pressure washing and pruning for a thriving holiday property. Looking for &quot;Christmas light installation near me&quot;? We&apos;re your local experts.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

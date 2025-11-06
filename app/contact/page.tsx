@@ -42,7 +42,7 @@ export default function ContactPage() {
         className="mb-6"
         style={{ color: 'rgb(220, 38, 38)' }}  // Red-600
       >
-        Get a free quote for professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX, plus winter landscaping services. Whether it's "holiday light installation near me" or custom designs, we're here.
+        Get a free quote for professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX, plus winter landscaping services. Whether it&apos;s &quot;holiday light installation near me&quot; or custom designs, we&apos;re here.
       </p>
       <form onSubmit={handleSubmit} className="space-y-4 max-w-lg mx-auto">
         <div>

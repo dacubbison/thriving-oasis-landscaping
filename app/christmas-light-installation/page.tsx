@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -29,7 +28,7 @@ export default function ChristmasLightInstallation() {
           className="mb-8 text-lg text-center max-w-3xl mx-auto"
           style={{ color: 'rgb(22, 101, 52)' }}
         >
-          Searching for "professional Christmas light installation near me"? Thriving Oasis Landscaping offers expert holiday light installation services, custom designs, and hassle-free setups for homes and businesses in The Woodlands TX, Kingwood TX, and Montgomery County TX. With seasonal spikes in searches for Christmas lights, now's the time to book—get your free quote today!
+          Searching for &quot;professional Christmas light installation near me&quot;? Thriving Oasis Landscaping offers expert holiday light installation services, custom designs, and hassle-free setups for homes and businesses in The Woodlands TX, Kingwood TX, and Montgomery County TX. With seasonal spikes in searches for Christmas lights, now&apos;s the time to book—get your free quote today!
         </p>
 
         <section className="mb-12">
@@ -68,7 +67,7 @@ export default function ChristmasLightInstallation() {
             Christmas Light Installation Cost Guide for The Woodlands TX
           </h2>
           <p style={{ color: 'rgb(22, 101, 52)' }}>
-            Wondering "how much does Christmas light installation cost"? Our pricing starts at $1,000 for basic professional setups, with premium options at $1,500+ including maintenance. Factors include home size, design complexity, and location (e.g., gated communities in 77345 Kingwood). Bundles with winter cleanups save 10-15%. Local averages match $800-2,000, but our warranties and digital renderings add value—contact us for a personalized quote.
+            Wondering &quot;how much does Christmas light installation cost&quot;? Our pricing starts at $1,000 for basic professional setups, with premium options at $1,500+ including maintenance. Factors include home size, design complexity, and location (e.g., gated communities in 77345 Kingwood). Bundles with winter cleanups save 10-15%. Local averages match $800-2,000, but our warranties and digital renderings add value—contact us for a personalized quote.
           </p>
         </section>
 
@@ -89,7 +88,7 @@ export default function ChristmasLightInstallation() {
               <p>We supply high-quality LEDs, but can install yours for holiday light hanging service in Kingwood TX.</p>
             </div>
             <div>
-              <h3 className="font-bold">What's included in removal?</h3>
+              <h3 className="font-bold">What&apos;s included in removal?</h3>
               <p>Safe takedown in January, plus storage options for Montgomery County TX clients.</p>
             </div>
             <div>
