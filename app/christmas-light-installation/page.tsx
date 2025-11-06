@@ -67,7 +67,7 @@ export default function ChristmasLightInstallation() {
             Christmas Light Installation Cost Guide for The Woodlands TX
           </h2>
           <p style={{ color: 'rgb(22, 101, 52)' }}>
-            Wondering &quot;how much does Christmas light installation cost&quot;? Our pricing starts at $1,000 for basic professional setups, with premium options at $1,500+ including maintenance. Factors include home size, design complexity, and location. Bundles with winter cleanups save 10-15%. Local averages match $800-2,000, but our warranties and digital renderings add value—contact us for a personalized quote.
+            Wondering &quot;how much does Christmas light installation cost&quot;? Our pricing starts at $1,000 for basic professional setups, with premium options at $1,500+ including maintenance. Factors include home size, design complexity, and location. Bundles with winter cleanups save 10-15%. Local pros charge $1000-2,000 on average, but our premium warranties, free digital renderings, and hassle-free service deliver unbeatable value—book now and glow brighter!
           </p>
         </section>
 
