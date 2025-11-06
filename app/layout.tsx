@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   robots: "index, follow",
+  metadataBase: new URL('https://thrivingoasislandscaping.com'), // Kills the metadataBase warning
 };
 
 const leaves = [

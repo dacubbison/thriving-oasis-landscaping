@@ -11,10 +11,9 @@ export default function ServicesPage() {
         <Image
           src="/leaves-falling-woodlands-tx.png"
           alt="Fall leaves in The Woodlands TX - Thriving Oasis Landscaping winter services background"
-          layout="fill"
-          objectFit="cover"
+          fill
           quality={100}
-          className="opacity-30"
+          className="opacity-30 object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-green-50 to-white opacity-90"></div>
       </div>

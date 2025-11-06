@@ -11,10 +11,9 @@ export default function ChristmasLightInstallation() {
         <Image
           src="/hero-christmas-lights-1.jpg"
           alt="Custom professional Christmas light installation in The Woodlands TX - Before and after"
-          layout="fill"
-          objectFit="cover"
+          fill
           quality={100}
-          className="opacity-40"
+          className="opacity-40 object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-red-50 to-white opacity-90"></div>
       </div>

@@ -18,10 +18,9 @@ export default function Home() {
         <Image
           src="/hero-christmas-lights.png"
           alt="Professional Christmas light installation in The Woodlands TX - Festive home display by Thriving Oasis Landscaping"
-          layout="fill"
-          objectFit="cover"
+          fill
           quality={100}
-          className="absolute inset-0 z-0"
+          className="absolute inset-0 z-0 object-cover"
         />
         <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
         <div className="relative z-10">
