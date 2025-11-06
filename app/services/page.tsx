@@ -10,7 +10,7 @@ export default function ServicesPage() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/leaves-falling-woodlands-tx.png"
-          alt="Fall leaves in The Woodlands TX - Thriving Oasis Landscaping"
+          alt="Fall leaves in The Woodlands TX - Thriving Oasis Landscaping winter services background"
           layout="fill"
           objectFit="cover"
           quality={100}
@@ -24,13 +24,13 @@ export default function ServicesPage() {
           className="text-3xl md:text-4xl font-bold mb-6 text-center drop-shadow-md"
           style={{ color: 'rgb(22, 101, 52)' }}
         >
-          ❄️ Winter Landscaping Services - Professional Christmas Light Installation
+          ❄️ Winter Landscaping Services - Professional Christmas Light Installation in The Woodlands TX
         </h1>
         <p 
           className="mb-8 text-lg text-center max-w-3xl mx-auto"
           style={{ color: 'rgb(220, 38, 38)' }}
         >
-          Our winter services in The Woodlands TX, Kingwood TX, and Montgomery County TX spotlight professional Christmas light installation, complemented by pressure washing and pruning for a thriving holiday property.
+          Our winter services in The Woodlands TX, Kingwood TX, and Montgomery County TX spotlight professional Christmas light installation, complemented by pressure washing and pruning for a thriving holiday property. Looking for "Christmas light installation near me"? We're your local experts.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -50,7 +50,7 @@ export default function ServicesPage() {
               className="mb-4"
               style={{ color: 'rgb(220, 38, 38)' }}
             >
-              Custom LED designs in The Woodlands TX—safe install, removal, storage. Warranty included.
+              Custom LED designs in The Woodlands TX—safe install, removal, storage. Warranty included for holiday light installation services.
             </p>
             <p 
               className="font-bold text-lg"
@@ -76,7 +76,7 @@ export default function ServicesPage() {
               className="mb-4"
               style={{ color: 'rgb(220, 38, 38)' }}
             >
-              Enhanced LED setups in Kingwood TX—maintenance, commercial options.
+              Enhanced LED setups in Kingwood TX—maintenance, commercial options for professional Christmas light hanging service.
             </p>
             <p 
               className="font-bold text-lg"
@@ -102,7 +102,7 @@ export default function ServicesPage() {
               className="mb-4"
               style={{ color: 'rgb(220, 38, 38)' }}
             >
-              Gutter/driveway clean in Montgomery County TX—bundle with lights for 10% off.
+              Gutter/driveway clean in Montgomery County TX—bundle with Christmas lights near me for 10% off.
             </p>
             <p 
               className="font-bold text-lg"
@@ -154,7 +154,7 @@ export default function ServicesPage() {
               className="mb-4"
               style={{ color: 'rgb(220, 38, 38)' }}
             >
-              Clear oil/dirt in Kingwood TX—holiday prep add-on.
+              Clear oil/dirt in Kingwood TX—holiday prep add-on for Christmas light installers near me.
             </p>
             <p 
               className="font-bold text-lg"
@@ -221,7 +221,7 @@ export default function ServicesPage() {
           className="mt-8 text-lg text-center max-w-3xl mx-auto"
           style={{ color: 'rgb(220, 38, 38)' }}
         >
-          Book professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX or winter services today for a stunning holiday display!
+          Book professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX or winter services today for a stunning holiday display! See our <Link href="/christmas-light-installation">Christmas light details</Link>.
         </p>
       </div>
     </div>

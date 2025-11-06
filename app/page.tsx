@@ -17,7 +17,7 @@ export default function Home() {
       <section className="relative h-[500px] md:h-[800px] px-4 text-center flex items-center justify-center">
         <Image
           src="/hero-christmas-lights.png"
-          alt="Professional Christmas Light Installation in The Woodlands TX - Festive home display"
+          alt="Professional Christmas light installation in The Woodlands TX - Festive home display by Thriving Oasis Landscaping"
           layout="fill"
           objectFit="cover"
           quality={100}
@@ -32,7 +32,7 @@ export default function Home() {
             className="text-5xl md:text-7xl font-bold mb-4 text-green-300 drop-shadow-lg"
             style={{ color: 'rgb(134, 239, 172)' }}
           >
-            Thriving Oasis Landscaping: Professional Christmas Light Installation
+            Thriving Oasis Landscaping: Professional Christmas Light Installation in The Woodlands TX
           </motion.h1>
           <p 
             className="text-4xl md:text-6xl mb-4 font-bold text-white drop-shadow-lg"
@@ -51,7 +51,7 @@ export default function Home() {
             className="text-2xl md:text-3xl font-extrabold hover:underline mb-4 inline-block drop-shadow-lg"
             style={{ color: 'rgb(220, 38, 38)' }}
           >
-            Book Free Holiday Quote
+            Book Free Holiday Quote for Christmas Light Installation Near Me
           </Link>
           <br />
           <Link 
@@ -74,7 +74,7 @@ export default function Home() {
           className="text-center mb-8"
           style={{ color: 'rgb(220, 38, 38)' }}  // Red-600
         >
-          Brighten up your holiday season with expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX! Our professional team handles everything from design to takedown, ensuring your home or business shines with festive cheer—safely and beautifully.
+          Brighten up your holiday season with expert professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX! Our professional team handles everything from design to takedown, ensuring your home or business shines with festive cheer—safely and beautifully. Searching for "Christmas lights near me" or "holiday light installation Kingwood TX"? We've got you covered with custom solutions.
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <motion.div
@@ -90,11 +90,11 @@ export default function Home() {
               ❄️ Our Services Include
             </h3>
             <ul className="list-disc pl-6 space-y-2" style={{ color: 'rgb(220, 38, 38)' }}>
-              <li>Custom designs for your property</li>
-              <li>Energy-efficient LED lights</li>
-              <li>Safe pro installation in The Woodlands TX</li>
-              <li>Removal & storage post-holidays</li>
-              <li>Season-long maintenance</li>
+              <li>Custom designs for your property in The Woodlands TX</li>
+              <li>Energy-efficient LED lights for holiday lighting services</li>
+              <li>Safe pro installation for Christmas light hanging service</li>
+              <li>Removal & storage post-holidays in Kingwood TX</li>
+              <li>Season-long maintenance for Montgomery County TX homes</li>
             </ul>
           </motion.div>
           <motion.div
@@ -107,13 +107,13 @@ export default function Home() {
               className="text-2xl mb-2"
               style={{ color: 'rgb(22, 101, 52)' }}  // Green-800
             >
-              🎅 Why Choose Us?
+              🎅 Why Choose Us for Professional Christmas Light Installation?
             </h3>
             <ul className="list-disc pl-6 space-y-2" style={{ color: 'rgb(220, 38, 38)' }}>
-              <li>Insured expert installers</li>
-              <li>Hassle-free, no-ladder experience for you</li>
+              <li>Insured expert installers near you</li>
+              <li>Hassle-free, no-ladder experience for Christmas light installers near me</li>
               <li>Designs for every budget in Kingwood TX</li>
-              <li>Reliable & prompt scheduling</li>
+              <li>Reliable & prompt scheduling in Montgomery County TX</li>
             </ul>
           </motion.div>
         </div>
@@ -122,19 +122,19 @@ export default function Home() {
             className="text-2xl font-bold mb-4 text-left max-w-2xl mx-auto"
             style={{ color: 'rgb(22, 101, 52)' }}  // Green-800
           >
-            ⛄ How It Works
+            ⛄ How Our Christmas Light Installation Works
           </h3>
           <ol className="list-decimal pl-6 space-y-2 text-left max-w-2xl mx-auto" style={{ color: 'rgb(220, 38, 38)' }}>
-            <li>Book free consultation</li>
+            <li>Book free consultation for professional Christmas light installation</li>
             <li>Approve your plan & digital rendering</li>
-            <li>Relax during install in Montgomery County TX</li>
-            <li>Enjoy your holiday glow</li>
+            <li>Relax during install in The Woodlands TX or nearby</li>
+            <li>Enjoy your holiday glow with our holiday light installation services</li>
           </ol>
           <p 
             className="mt-4 text-center"
             style={{ color: 'rgb(220, 38, 38)' }}  // Red-600
           >
-            Contact us today to book your professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX and make this Christmas your brightest yet!
+            Contact us today to book your professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX and make this Christmas your brightest yet! Check our <Link href="/services">services</Link> or <Link href="/christmas-light-installation">dedicated Christmas page</Link> for more.
           </p>
         </div>
       </section>

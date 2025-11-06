@@ -6,9 +6,26 @@ import Link from 'next/link';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Thriving Oasis Landscaping - Professional Christmas Light Installation in The Woodlands, Kingwood & Montgomery County TX",
-  description: "Expert professional Christmas light installation services in The Woodlands TX, Kingwood TX, and Montgomery County TX. Winter landscaping including pressure washing and pruning for a festive, thriving property.",
-  keywords: "professional Christmas light installation The Woodlands TX, professional Christmas light installation Kingwood TX, professional Christmas light installation Montgomery County TX, Christmas light installation The Woodlands TX, Christmas light installation Kingwood TX, Christmas light installation Montgomery County TX, winter landscaping The Woodlands TX, pressure washing Montgomery County TX",
+  title: "Professional Christmas Light Installation in The Woodlands, Kingwood & Montgomery County TX | Thriving Oasis Landscaping",
+  description: "Get stunning, hassle-free professional Christmas light installation for your home. Serving The Woodlands TX, Kingwood TX, and Montgomery County TX. Free quotes: 936-549-2797.",
+  keywords: "professional Christmas light installation The Woodlands TX, Christmas light installation Kingwood TX, holiday light installation Montgomery County TX, Christmas lights near me, professional Christmas light installation near me, Christmas light hanging service The Woodlands TX, holiday lighting services Kingwood TX",
+  openGraph: {
+    title: "Professional Christmas Light Installation in The Woodlands TX | Thriving Oasis Landscaping",
+    description: "Expert holiday light installation services in The Woodlands, Kingwood, and Montgomery County TX. Custom designs, installation, and removal.",
+    url: "https://thrivingoasislandscaping.com",
+    siteName: "Thriving Oasis Landscaping",
+    images: [
+      {
+        url: "/hero-christmas-lights.png",
+        width: 800,
+        height: 600,
+        alt: "Professional Christmas light installation in The Woodlands TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  robots: "index, follow",
 };
 
 const leaves = [
@@ -29,6 +46,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Thriving Oasis Landscaping",
+              "description": "Professional Christmas light installation services in The Woodlands TX, Kingwood TX, and Montgomery County TX.",
+              "url": "https://thrivingoasislandscaping.com",
+              "telephone": "936-549-2797",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "The Woodlands",
+                "addressRegion": "TX",
+                "postalCode": "77381",
+                "addressCountry": "US"
+              },
+              "openingHours": "Mo-Su 08:00-20:00",
+              "priceRange": "$$",
+              "image": "/hero-christmas-lights.png",
+              "sameAs": ["https://www.google.com/business/thrivingoasislandscaping"]
+            })
+          }}
+        />
+      </head>
       <body className={inter.className}>
         {/* Snowflakes */}
         <div className="snowflake left-10" style={{ animationDelay: '0s' }}>❄️</div>
@@ -57,13 +100,14 @@ export default function RootLayout({
           <ul className="flex flex-wrap justify-center text-lg">
             <li style={{ marginRight: '2rem' }}><Link href="/" className="hover:underline font-semibold px-2" style={{ fontSize: '1.25rem' }}>Home</Link></li>
             <li style={{ marginRight: '2rem' }}><Link href="/services" className="hover:underline font-semibold px-2" style={{ fontSize: '1.25rem' }}>Services</Link></li>
+            <li style={{ marginRight: '2rem' }}><Link href="/christmas-light-installation" className="hover:underline font-semibold px-2" style={{ fontSize: '1.25rem' }}>Christmas Lights</Link></li>
             <li><Link href="/contact" className="hover:underline font-semibold px-2" style={{ fontSize: '1.25rem' }}>Contact</Link></li>
           </ul>
         </nav>
         {children}
         <footer className="bg-green-700 text-white p-4 text-center mt-8">
           <p>&copy; 2025 Thriving Oasis Landscaping | Part of D&D Mobile Services TX | <Link href="https://www.ddmobileservicestx.com" className="hover:underline">Back to Hub</Link></p>
-          <p>Professional Christmas light installation in The Woodlands, Kingwood, and Montgomery County TX</p>
+          <p>Professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX</p>
         </footer>
       </body>
     </html>

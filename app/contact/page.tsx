@@ -36,13 +36,13 @@ export default function ContactPage() {
         className="text-3xl font-bold mb-4"
         style={{ color: 'rgb(22, 101, 52)' }}  // Green-800
       >
-        🎄 Contact Us for Professional Christmas Light Installation
+        🎄 Contact Us for Professional Christmas Light Installation in The Woodlands TX
       </h1>
       <p 
         className="mb-6"
         style={{ color: 'rgb(220, 38, 38)' }}  // Red-600
       >
-        Get a free quote for professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX, plus winter landscaping services.
+        Get a free quote for professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX, plus winter landscaping services. Whether it's "holiday light installation near me" or custom designs, we're here.
       </p>
       <form onSubmit={handleSubmit} className="space-y-4 max-w-lg mx-auto">
         <div>
@@ -61,7 +61,7 @@ export default function ContactPage() {
           <ValidationError prefix="Phone" field="phone" errors={state.errors} />
         </div>
         <div>
-          <label htmlFor="message" className="block mb-1" style={{ color: 'rgb(22, 101, 52)' }}>Message</label>
+          <label htmlFor="message" className="block mb-1" style={{ color: 'rgb(22, 101, 52)' }}>Message (e.g., Christmas light installation cost The Woodlands)</label>
           <textarea id="message" name="message" className="w-full p-2 border rounded h-32" required />
           <ValidationError prefix="Message" field="message" errors={state.errors} />
         </div>
