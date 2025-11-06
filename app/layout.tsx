@@ -73,12 +73,16 @@ export default function RootLayout({
           }}
         />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-XXXX');
-        </script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-XXXX');
+            `,
+          }}
+        />
       </head>
       <body className={inter.className}>
         {/* Snowflakes */}
