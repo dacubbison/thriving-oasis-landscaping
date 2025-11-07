@@ -10,7 +10,7 @@ export default function ServicesPage() {
       {/* Full Page Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/leaves-falling-woodlands-tx.png"
+          src="/leaves-falling-woodlands-tx.jpg"
           alt="Fall leaves in The Woodlands TX - Thriving Oasis Landscaping winter services background"
           fill
           quality={100}

@@ -31,9 +31,7 @@ export const metadata: Metadata = {
 
 const leaves = [
   { left: '5%', animationDelay: '0s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
-  { left: '40%', animationDelay: '1s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
   { left: '80%', animationDelay: '2s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
-  { left: '50%', animationDelay: '0.5s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Extra
 ];
 
 export default function RootLayout({
@@ -79,12 +77,11 @@ export default function RootLayout({
             `,
           }}
         />
+        <link rel="preload" as="image" href="/hero-christmas-lights.jpg" /> {/* Preload hero for LCP pop */}
       </head>
       <body className={inter.className}>
         {/* Snowflakes */}
-        <div className="snowflake left-10" style={{ animationDelay: '0s' }}>❄️</div>
         <div className="snowflake left-1/2" style={{ animationDelay: '4s' }}>❄️</div>
-        <div className="snowflake right-10" style={{ animationDelay: '3s' }}>❄️</div>
 
         {/* Falling leaves with random positions and colors */}
         {leaves.map((leaf, i) => (
@@ -92,9 +89,7 @@ export default function RootLayout({
         ))}
 
         {/* Twinkling lights */}
-        <div className="twinkle-light" style={{ left: '10%', top: '20%', animationDelay: '0s' }}></div>
         <div className="twinkle-light" style={{ left: '50%', top: '60%', animationDelay: '1s' }}></div>
-        <div className="twinkle-light" style={{ left: '90%', top: '50%', animationDelay: '2s' }}></div>
         <div className="twinkle-light" style={{ left: '60%', top: '80%', animationDelay: '1.2s' }}></div>
 
         <nav className="bg-green-700 text-white p-4">
