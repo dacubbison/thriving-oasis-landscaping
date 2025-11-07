@@ -16,7 +16,7 @@ export default function Home() {
 
       <section className="relative h-[500px] md:h-[800px] px-4 text-center flex items-center justify-center">
         <Image
-          src="/hero-christmas-lights.png"
+          src="/hero-christmas-lights.jpg"
           alt="Professional Christmas light installation in The Woodlands TX - Festive home display by Thriving Oasis Landscaping"
           fill
           quality={100}

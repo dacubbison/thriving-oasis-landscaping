@@ -15,6 +15,7 @@ export default function ServicesPage() {
           fill
           quality={100}
           className="opacity-30 object-cover"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-green-50 to-white opacity-90"></div>
       </div>

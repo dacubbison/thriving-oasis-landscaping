@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "Thriving Oasis Landscaping",
     images: [
       {
-        url: "/hero-christmas-lights.png",
+        url: "/hero-christmas-lights.jpg",
         width: 800,
         height: 600,
         alt: "Professional Christmas light installation in The Woodlands TX",
@@ -31,13 +31,9 @@ export const metadata: Metadata = {
 
 const leaves = [
   { left: '5%', animationDelay: '0s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
-  { left: '20%', animationDelay: '3s', color: 'rgb(210, 105, 30)', emoji: '🍂' }, // Chocolate brown
   { left: '40%', animationDelay: '1s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
-  { left: '60%', animationDelay: '4s', color: 'rgb(210, 105, 30)', emoji: '🍂' }, // Chocolate brown
   { left: '80%', animationDelay: '2s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
-  { left: '15%', animationDelay: '5s', color: 'rgb(210, 105, 30)', emoji: '🍂' }, // Extra for random spread
   { left: '50%', animationDelay: '0.5s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Extra
-  { left: '75%', animationDelay: '2.5s', color: 'rgb(210, 105, 30)', emoji: '🍂' } // Extra
 ];
 
 export default function RootLayout({
@@ -67,7 +63,7 @@ export default function RootLayout({
               },
               "openingHours": "Mo-Su 08:00-20:00",
               "priceRange": "$$",
-              "image": "/hero-christmas-lights.png",
+              "image": "/hero-christmas-lights.jpg",
               "sameAs": ["https://www.google.com/business/thrivingoasislandscaping"]
             })
           }}
@@ -87,9 +83,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* Snowflakes */}
         <div className="snowflake left-10" style={{ animationDelay: '0s' }}>❄️</div>
-        <div className="snowflake left-1/4" style={{ animationDelay: '2s' }}>❄️</div>
         <div className="snowflake left-1/2" style={{ animationDelay: '4s' }}>❄️</div>
-        <div className="snowflake left-3/4" style={{ animationDelay: '1s' }}>❄️</div>
         <div className="snowflake right-10" style={{ animationDelay: '3s' }}>❄️</div>
 
         {/* Falling leaves with random positions and colors */}
@@ -99,14 +93,9 @@ export default function RootLayout({
 
         {/* Twinkling lights */}
         <div className="twinkle-light" style={{ left: '10%', top: '20%', animationDelay: '0s' }}></div>
-        <div className="twinkle-light" style={{ left: '30%', top: '40%', animationDelay: '0.5s' }}></div>
         <div className="twinkle-light" style={{ left: '50%', top: '60%', animationDelay: '1s' }}></div>
-        <div className="twinkle-light" style={{ left: '70%', top: '30%', animationDelay: '1.5s' }}></div>
         <div className="twinkle-light" style={{ left: '90%', top: '50%', animationDelay: '2s' }}></div>
-        <div className="twinkle-light" style={{ left: '20%', top: '70%', animationDelay: '0.2s' }}></div>
-        <div className="twinkle-light" style={{ left: '40%', top: '10%', animationDelay: '0.8s' }}></div>
         <div className="twinkle-light" style={{ left: '60%', top: '80%', animationDelay: '1.2s' }}></div>
-        <div className="twinkle-light" style={{ left: '80%', top: '90%', animationDelay: '1.8s' }}></div>
 
         <nav className="bg-green-700 text-white p-4">
           <ul className="flex flex-wrap justify-center text-lg">

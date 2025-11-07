@@ -13,6 +13,7 @@ export default function ChristmasLightInstallation() {
           fill
           quality={100}
           className="opacity-40 object-cover"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-red-50 to-white opacity-90"></div>
       </div>
