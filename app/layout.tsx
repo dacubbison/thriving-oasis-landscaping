@@ -31,7 +31,6 @@ export const metadata: Metadata = {
 
 const leaves = [
   { left: '5%', animationDelay: '0s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
-  { left: '80%', animationDelay: '2s', color: 'rgb(255, 69, 0)', emoji: '🍁' }, // Orangered
 ];
 
 export default function RootLayout({
@@ -90,7 +89,6 @@ export default function RootLayout({
 
         {/* Twinkling lights */}
         <div className="twinkle-light" style={{ left: '50%', top: '60%', animationDelay: '1s' }}></div>
-        <div className="twinkle-light" style={{ left: '60%', top: '80%', animationDelay: '1.2s' }}></div>
 
         <nav className="bg-green-700 text-white p-4">
           <ul className="flex flex-wrap justify-center text-lg">
