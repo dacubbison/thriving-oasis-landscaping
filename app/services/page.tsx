@@ -58,6 +58,7 @@ export default function ServicesPage() {
             >
               Starting at $1,000/job
             </p>
+            <Link href="/christmas-light-installation" className="text-blue-500 hover:underline">Details</Link>
           </motion.div>
 
           <motion.div
@@ -84,6 +85,7 @@ export default function ServicesPage() {
             >
               Starting at $1,500+/job
             </p>
+            <Link href="/christmas-light-installation" className="text-blue-500 hover:underline">Details</Link>
           </motion.div>
 
           <motion.div
