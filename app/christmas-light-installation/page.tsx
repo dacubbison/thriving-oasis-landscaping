@@ -3,6 +3,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+// Declare fbq as global for TypeScript - Fixes 'Cannot find name fbq' build error
+declare global {
+  interface Window {
+    fbq: (command: string, eventName: string, params?: any) => void;
+  }
+}
+
 export default function ChristmasLightInstallation() {
   return (
     <div className="relative min-h-screen">
@@ -37,14 +44,14 @@ export default function ChristmasLightInstallation() {
           <a 
             href="tel:936-549-2797" 
             className="bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600 font-bold"
-            onClick={() => fbq('track', 'Contact')}  // Pixel Contact event on click
+            onClick={() => window.fbq('track', 'Contact')}  // Pixel Contact event on click
           >
             Call Now: 936-549-2797
           </a>
           <a 
             href="sms:936-549-2797?body=I'd like a free Christmas lights quote!" 
             className="bg-red-500 text-white px-6 py-3 rounded hover:bg-red-600 font-bold"
-            onClick={() => fbq('track', 'Contact')}  // Pixel Contact event on click
+            onClick={() => window.fbq('track', 'Contact')}  // Pixel Contact event on click
           >
             Text Now for Quote
           </a>
@@ -131,27 +138,18 @@ export default function ChristmasLightInstallation() {
         <a 
           href="tel:936-549-2797" 
           className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 font-bold mr-2"
-          onClick={() => fbq('track', 'Contact')}  // Pixel Contact event on click
+          onClick={() => window.fbq('track', 'Contact')}  // Pixel Contact event on click
         >
           Call Now
         </a>
         <a 
           href="sms:936-549-2797?body=I'd like a free Christmas lights quote!" 
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 font-bold"
-          onClick={() => fbq('track', 'Contact')}  // Pixel Contact event on click
+          onClick={() => window.fbq('track', 'Contact')}  // Pixel Contact event on click
         >
           Text Now
         </a>
       </div>
-
-      {/* View Content Event - Fires on page load for this page */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            fbq('track', 'ViewContent');
-          `,
-        }}
-      />
     </div>
   );
 }
