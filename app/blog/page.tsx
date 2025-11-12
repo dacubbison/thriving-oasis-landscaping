@@ -16,7 +16,7 @@ export default function Blog() {
         <p style={{ color: 'rgb(220, 38, 38)' }}>Go for timeless roofline LEDs in red/green/white—add icicle drops for that winter wonderland vibe. Our professional Christmas light installation in The Woodlands TX ensures safe, warranty-backed setups. (200 words on deets, tips, why pro...)</p>
       </motion.div>
       {/* Repeat for 2-5: Tree wraps, pathway lights, window frames, yard displays—keyword drop "Christmas light hanging service Kingwood TX", etc. Expand to 800+ total for SEO juice. */}
-      <p className="mt-8">Ready to glow? Call 936-549-2797 for pro installs—let's get rich on holiday magic!</p>
+      <p className="mt-8">Ready to glow? Call 936-549-2797 for pro installs—let&apos;s get rich on holiday magic!</p>
     </div>
   );
 }

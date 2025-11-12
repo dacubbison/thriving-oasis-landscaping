@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from 'next/script';
 import "./globals.css";
 import Link from 'next/link';
 
@@ -65,17 +66,6 @@ export default function RootLayout({
             })
           }}
         />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-26QRM1ZFXV"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-26QRM1ZFXV');
-            `,
-          }}
-        />
         <link rel="preload" as="image" href="/hero-christmas-lights.jpg" /> {/* Preload hero for LCP pop */}
       </head>
       <body className={inter.className}>
@@ -104,6 +94,15 @@ export default function RootLayout({
           <p>&copy; 2025 Thriving Oasis Landscaping | Part of D&D Mobile Services TX | <Link href="https://www.ddmobileservicestx.com" className="hover:underline">Back to Hub</Link></p>
           <p>Professional Christmas light installation in The Woodlands TX, Kingwood TX, and Montgomery County TX</p>
         </footer>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-26QRM1ZFXV" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-26QRM1ZFXV');
+          `}
+        </Script>
       </body>
     </html>
   );
