@@ -6,14 +6,6 @@ import { motion } from 'framer-motion';
 export default function ContactPage() {
   const [state, handleSubmit] = useForm('mldpadvy');
 
-  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    handleSubmit(e);
-    // Pixel Lead event on submit - Fires on form submission
-    if (window.fbq) {
-      fbq('track', 'Lead');
-    }
-  };
-
   if (state.succeeded) {
     return (
       <motion.p
@@ -52,7 +44,7 @@ export default function ContactPage() {
       >
         Get a free quote for professional Christmas light installation in The Woodlands TX, Kingwood TX, or Montgomery County TX, plus winter landscaping services. Whether it&apos;s &quot;holiday light installation near me&quot; or custom designs, we&apos;re here.
       </p>
-      <form onSubmit={handleFormSubmit} className="space-y-4 max-w-lg mx-auto">
+      <form onSubmit={handleSubmit} className="space-y-4 max-w-lg mx-auto">
         <div>
           <label htmlFor="name" className="block mb-1" style={{ color: 'rgb(22, 101, 52)' }}>Name</label>
           <input id="name" type="text" name="name" className="w-full p-2 border rounded" required />
