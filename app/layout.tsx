@@ -65,14 +65,14 @@ export default function RootLayout({
             })
           }}
         />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-26QRM1ZFXV"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-XXXX');
+              gtag('config', 'G-26QRM1ZFXV');
             `,
           }}
         />
@@ -95,6 +95,7 @@ export default function RootLayout({
             <li style={{ marginRight: '2rem' }}><Link href="/" className="hover:underline font-semibold px-2" style={{ fontSize: '1.25rem' }}>Home</Link></li>
             <li style={{ marginRight: '2rem' }}><Link href="/services" className="hover:underline font-semibold px-2" style={{ fontSize: '1.25rem' }}>Services</Link></li>
             <li style={{ marginRight: '2rem' }}><Link href="/christmas-light-installation" className="hover:underline font-semibold px-2" style={{ fontSize: '1.25rem' }}>Christmas Lights</Link></li>
+            <li style={{ marginRight: '2rem' }}><Link href="/blog" className="hover:underline font-semibold px-2" style={{ fontSize: '1.25rem' }}>Blog</Link></li>
             <li><Link href="/contact" className="hover:underline font-semibold px-2" style={{ fontSize: '1.25rem' }}>Contact</Link></li>
           </ul>
         </nav>
