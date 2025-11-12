@@ -6,7 +6,7 @@ import Link from 'next/link';
 // Declare fbq as global for TypeScript - Fixes 'Cannot find name fbq' build error
 declare global {
   interface Window {
-    fbq: (command: string, eventName: string, params?: any) => void;
+    fbq: (command: string, eventName: string, params?: Record<string, unknown>) => void;
   }
 }
 
