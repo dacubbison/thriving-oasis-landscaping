@@ -32,6 +32,24 @@ export default function ChristmasLightInstallation() {
           Searching for &quot;professional Christmas light installation near me&quot;? Thriving Oasis Landscaping offers expert holiday light installation services, custom designs, and hassle-free setups for homes and businesses in The Woodlands TX, Kingwood TX, and Montgomery County TX. Now&apos;s the time to book—get your free quote today!
         </p>
 
+        {/* Upgraded CTA Buttons - Call & Text Now for quick conversions */}
+        <div className="flex justify-center space-x-4 mb-12">
+          <a 
+            href="tel:936-549-2797" 
+            className="bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600 font-bold"
+            onClick={() => fbq('track', 'Contact')}  // Pixel Contact event on click
+          >
+            Call Now: 936-549-2797
+          </a>
+          <a 
+            href="sms:936-549-2797?body=I'd like a free Christmas lights quote!" 
+            className="bg-red-500 text-white px-6 py-3 rounded hover:bg-red-600 font-bold"
+            onClick={() => fbq('track', 'Contact')}  // Pixel Contact event on click
+          >
+            Text Now for Quote
+          </a>
+        </div>
+
         <section className="mb-12">
           <h2 
             className="text-2xl font-semibold mb-4"
@@ -106,6 +124,34 @@ export default function ChristmasLightInstallation() {
           Ready to hire Christmas light installers in The Woodlands TX? <Link href="/contact" style={{ color: 'rgb(220, 38, 38)' }}>Book your free quote</Link> now and light up the holidays!
         </p>
       </div>
+
+      {/* Upgraded Floating CTA Bar - Sticky at bottom for non-stop conversions */}
+      <div className="fixed bottom-0 left-0 right-0 bg-green-700 text-white p-4 text-center z-20">
+        <p className="inline mr-4">Ready to Glow? Get Your Free Quote!</p>
+        <a 
+          href="tel:936-549-2797" 
+          className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 font-bold mr-2"
+          onClick={() => fbq('track', 'Contact')}  // Pixel Contact event on click
+        >
+          Call Now
+        </a>
+        <a 
+          href="sms:936-549-2797?body=I'd like a free Christmas lights quote!" 
+          className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 font-bold"
+          onClick={() => fbq('track', 'Contact')}  // Pixel Contact event on click
+        >
+          Text Now
+        </a>
+      </div>
+
+      {/* View Content Event - Fires on page load for this page */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            fbq('track', 'ViewContent');
+          `,
+        }}
+      />
     </div>
   );
 }
