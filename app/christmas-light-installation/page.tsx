@@ -16,7 +16,7 @@ export default function ContactPage() {
   const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     handleSubmit(e);
     // Pixel Lead event on submit - Fires on form submission
-    if (typeof window.fbq === 'function') {
+    if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
       window.fbq('track', 'Lead');
     }
   };
