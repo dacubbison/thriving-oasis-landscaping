@@ -1,7 +1,13 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
+
+export const metadata = {
+  title: 'Professional Christmas Light Installation in The Woodlands TX, Kingwood TX & Montgomery County TX',
+  description: 'Searching for "professional Christmas light installation near me"? Thriving Oasis Landscaping offers expert holiday light installation services, custom designs, and hassle-free setups for homes and businesses in The Woodlands TX, Kingwood TX, and Montgomery County TX. Get your free quote today!',
+  alternates: {
+    canonical: 'https://www.thrivingoasislandscaping.com/christmas-light-installation',
+  },
+};
 
 export default function ChristmasLightInstallation() {
   return (
