@@ -16,21 +16,21 @@ export default function ServiceCards() {
           className="text-2xl font-semibold mb-3"
           style={{ color: 'rgb(22, 101, 52)' }}
         >
-          🎄 Professional Christmas Light Installation
+          🌱 Lawn Mowing & Maintenance
         </h3>
         <p 
           className="mb-4"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Custom LED designs in The Woodlands TX—safe install, removal, storage. Warranty included for holiday light installation services.
+          Weekly/bi-weekly cuts, edging, and fertilizing in The Woodlands TX—eco-friendly options for healthy lawns year-round.
         </p>
         <p 
           className="font-bold text-lg"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Starting at $1,000/job
+          Starting at $40/week
         </p>
-        <Link href="/christmas-light-installation" className="text-blue-500 hover:underline">Details</Link>
+        <Link href="/services/lawn-mowing" className="text-blue-500 hover:underline">Details</Link>
       </motion.div>
 
       <motion.div
@@ -43,21 +43,21 @@ export default function ServiceCards() {
           className="text-2xl font-semibold mb-3"
           style={{ color: 'rgb(22, 101, 52)' }}
         >
-          🎄 Premium Christmas Light Installation
+          🌿 Mulching & Bed Care
         </h3>
         <p 
           className="mb-4"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Enhanced LED setups in Kingwood TX—maintenance, commercial options for professional Christmas light hanging service.
+          Organic mulch application, weed control, and seasonal refreshes in Kingwood TX—enhances soil health and curb appeal.
         </p>
         <p 
           className="font-bold text-lg"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Starting at $1,500+/job
+          Starting at $200/job
         </p>
-        <Link href="/christmas-light-installation" className="text-blue-500 hover:underline">Details</Link>
+        <Link href="/services/mulching" className="text-blue-500 hover:underline">Details</Link>
       </motion.div>
 
       <motion.div
@@ -70,20 +70,21 @@ export default function ServiceCards() {
           className="text-2xl font-semibold mb-3"
           style={{ color: 'rgb(22, 101, 52)' }}
         >
-          ❄️ Pressure Washing
+          🏡 Landscape Design & Installation
         </h3>
         <p 
           className="mb-4"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Gutter/driveway clean in Montgomery County TX—bundle with Christmas lights near me for 10% off.
+          Custom plans with plants, hardscaping, and irrigation in Montgomery County TX—transform your yard into an oasis.
         </p>
         <p 
           className="font-bold text-lg"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Starting at $200/job
+          Starting at $1,000/project
         </p>
+        <Link href="/services/landscape-design" className="text-blue-500 hover:underline">Details</Link>
       </motion.div>
 
       <motion.div
@@ -96,20 +97,21 @@ export default function ServiceCards() {
           className="text-2xl font-semibold mb-3"
           style={{ color: 'rgb(22, 101, 52)' }}
         >
-          ❄️ Deck Washing
+          💦 Irrigation & Sprinkler Systems
         </h3>
         <p 
           className="mb-4"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Remove dirt/mold in The Woodlands TX—bundle with pressure washing for 10% off.
+          Efficient installs and repairs in Conroe TX—save water and keep your lawn lush. Bundle for 10% off.
         </p>
         <p 
           className="font-bold text-lg"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Starting at $150/job
+          Starting at $500/install
         </p>
+        <Link href="/services/irrigation" className="text-blue-500 hover:underline">Details</Link>
       </motion.div>
 
       <motion.div
@@ -122,20 +124,21 @@ export default function ServiceCards() {
           className="text-2xl font-semibold mb-3"
           style={{ color: 'rgb(22, 101, 52)' }}
         >
-          ❄️ Driveway Pressure Washing
+          🌳 Tree Trimming & Pruning
         </h3>
         <p 
           className="mb-4"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Clear oil/dirt in Kingwood TX—holiday prep add-on for Christmas light installers near me.
+          Safe, expert care for trees and shrubs in The Woodlands TX—promote growth and safety.
         </p>
         <p 
           className="font-bold text-lg"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
           Starting at $150/job
         </p>
+        <Link href="/services/tree-trimming" className="text-blue-500 hover:underline">Details</Link>
       </motion.div>
 
       <motion.div
@@ -148,20 +151,21 @@ export default function ServiceCards() {
           className="text-2xl font-semibold mb-3"
           style={{ color: 'rgb(22, 101, 52)' }}
         >
-          🍂 Winter Leaf Clean Up
+          🍂 Seasonal Cleanups
         </h3>
         <p 
           className="mb-4"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Yard tidy in Montgomery County TX—bundle with lights for savings.
+          Leaf removal, debris clearing, and prep in Kingwood TX—keep your yard pristine all year.
         </p>
         <p 
           className="font-bold text-lg"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
           Starting at $150/job
         </p>
+        <Link href="/services/seasonal-cleanups" className="text-blue-500 hover:underline">Details</Link>
       </motion.div>
 
       <motion.div
@@ -174,20 +178,21 @@ export default function ServiceCards() {
           className="text-2xl font-semibold mb-3"
           style={{ color: 'rgb(22, 101, 52)' }}
         >
-          ❄️ Winter Pruning & Cleanups
+          🧹 Pressure Washing Add-On
         </h3>
         <p 
           className="mb-4"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Plant care in The Woodlands TX—festive yard add-on.
+          Driveways, decks, and patios cleaned in Montgomery County TX—bundle with any service for 10% off.
         </p>
         <p 
           className="font-bold text-lg"
-          style={{ color: 'rgb(220, 38, 38)' }}
+          style={{ color: 'rgb(34, 197, 94)' }}
         >
-          Starting at $300/mo
+          Starting at $200/job
         </p>
+        <Link href="/services/pressure-washing" className="text-blue-500 hover:underline">Details</Link>
       </motion.div>
     </div>
   );
